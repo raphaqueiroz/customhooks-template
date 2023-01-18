@@ -9,6 +9,9 @@ function App() {
   const [nomeUsuarios, setNomeUsuarios] = useState([]);
   const [postagens, setPostagens] = useState([]);
 
+  //atualização.
+  
+
   useEffect(() => {
     axios
       .get(`${BASE_URL}users`)
